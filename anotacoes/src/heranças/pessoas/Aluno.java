@@ -1,4 +1,4 @@
-package heranças.pessoas;
+package pessoas;
 
 public class Aluno extends Pessoa{
     // Palavrinha mágica "extends", reservada pra falar que a classe Aluno herda todos os 
@@ -19,9 +19,5 @@ public class Aluno extends Pessoa{
 
 
     // Métodos
-    public mainAluno(){
-        super.setNome("Pedrito");
-
-        
-    }
+    
 }

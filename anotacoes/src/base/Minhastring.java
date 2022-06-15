@@ -1,4 +1,4 @@
-package base;
+
 public class Minhastring {
     public static void main(String[] args) {
         String nome = "Christian";

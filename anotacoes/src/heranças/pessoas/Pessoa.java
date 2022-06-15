@@ -1,16 +1,15 @@
-package heranças.pessoas;
+package pessoas;
 
 public class Pessoa {
     private String nome;
     private String endereco;
     private String cpf;
+    private final String naturalidade = "Brasileiro";
 
     // Necessário a obrigatoriedade em passar as seguintes informações
     
 
-
-
-    // Setando e Guetando os valores
+    // Encapsulamento
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -33,6 +32,10 @@ public class Pessoa {
     }
 
     // Métodos
-
+    public void escreveObjetoNaTela(){
+        System.out.println("Nome" + this.nome);
+        System.out.println("CPF" + this.cpf);
+        System.out.println("Origem" + this.naturalidade);
+    }
 
 }

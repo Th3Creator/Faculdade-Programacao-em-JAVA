@@ -1,4 +1,4 @@
-package heranças.pessoas;
+package pessoas;
 
 public class Professor extends Pessoa{
     private String soDoProfessor;

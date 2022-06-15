@@ -1,4 +1,4 @@
-package heranças.pessoas;
+package pessoas;
 
 public class Monitor extends Pessoa{
     private String soDoMonitor;
@@ -11,4 +11,9 @@ public class Monitor extends Pessoa{
         return this.soDoMonitor;
     }
     
+    @Override
+    public void escreveObjetoNaTela(){
+        super.escreveObjetoNaTela(); // ele já reutiliza o que já  é pra imprimir
+        System.out.println("Característica única do monitor:" + this.soDoMonitor); // e aqui passa a característica única do objeto pra ser imprimido
+    }
 }

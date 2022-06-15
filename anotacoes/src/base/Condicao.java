@@ -1,4 +1,4 @@
-package base;
+
 public class Condicao {
     public static void main(String[] args) {
         int a = 10;
